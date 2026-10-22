@@ -1,0 +1,2 @@
+NTSBNumber,Mkey,VehicleNumber,AviationFlightCrewFatal,AviationFlightCrewSerious,AviationFlightCrewMinor,AviationFlightCrewNone,AviationCabinCrewFatal,AviationCabinCrewSerious,AviationCabinCrewMinor,AviationCabinCrewNone,AviationPassengersFatal,AviationPassengersSerious,AviationPassengersMinor,AviationPassengersNone,AviationLapChildrenFatal,AviationLapChildrenSerious,AviationLapChildrenMinor,AviationLapChildrenNone
+DCA24MA063,193617,1,0,0,0,2,0,0,1,3,0,0,7,164,0,0,0,3

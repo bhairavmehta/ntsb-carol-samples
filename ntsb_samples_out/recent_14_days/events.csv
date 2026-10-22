@@ -1,0 +1,48 @@
+NTSBNumber,Mkey,VehicleNumber,EventNumber,CICTTEventSOEGroup,CICTTPhaseSOEGroup,EventCode,IsDefiningEvent,SequenceNumber,Tier1Number,Tier1Name,Tier2Number,Tier2Name
+CEN27LA025,204051,1,1,System/Component Failure (Powerplant),Takeoff,300341,True,1,300,Takeoff,341,Loss of engine power (total)
+WPR27LA022,204054,1,1,Runway Excursion,Landing,552300,True,1,552,Landing-landing roll,300,Runway excursion
+CEN27LA023,204042,1,1,Loss Of Control (Ground),Landing,550230,True,1,550,Landing,230,Loss of control on ground
+ERA27LA017,204038,1,3,Other,Landing,550470,False,3,550,Landing,470,Collision with terr/obj (non-CFIT) 
+ERA27LA017,204038,1,1,Low Altitude Operation/Event,Maneuvering,453220,False,1,453,Maneuvering-hover,220,Low altitude operation/event
+ERA27LA017,204038,1,4,Abnormal Runway Contact,Landing,550091,True,4,550,Landing,091,Tailstrike
+ERA27LA017,204038,1,2,Unintended Flight Into IMC,Landing,550402,False,2,550,Landing,402,Loss of visual reference
+CEN27LA022,204036,1,2,Fire,Standing,100160,True,1,100,Prior to flight,160,Explosion (non-impact)
+CEN27LA022,204036,1,1,Fire,Standing,100150,False,2,100,Prior to flight,150,Fire/smoke (non-impact)
+WPR27LA021,204031,1,1,System/Component Failure (Powerplant),Approach,508341,True,1,508,Approach-VFR pattern final,341,Loss of engine power (total)
+CEN27LA024,204050,1,1,Birdstrike,Enroute,400901,True,1,400,Enroute,901,Birdstrike
+CEN27LA019,204024,1,1,System/Component Failure (Powerplant),Takeoff,300341,True,1,300,Takeoff,341,Loss of engine power (total)
+CEN27LA018,204023,1,1,Loss Of Control (Ground),Landing,552230,True,1,552,Landing-landing roll,230,Loss of control on ground
+CEN27LA020,204025,1,1,Runway Excursion,Landing,550300,True,1,550,Landing,300,Runway excursion
+WPR27LA019,204028,1,1,System/Component Failure (Powerplant),InitialClimb,350341,True,1,350,Initial climb,341,Loss of engine power (total)
+DCA27LA013,204032,1,2,System/Component Failure (Non-Powerplant),EmergencyDescent,600331,False,2,600,Emergency descent,331,Pressure/environ sys malf/fail
+DCA27LA013,204032,1,3,Evacuation,Unknown,800460,False,3,800,Other,460,Evacuation
+DCA27LA013,204032,1,1,System/Component Failure (Non-Powerplant),InitialClimb,350331,True,1,350,Initial climb,331,Pressure/environ sys malf/fail
+WPR27LA020,204030,1,1,Loss Of Control (Ground),Landing,552230,True,1,552,Landing-landing roll,230,Loss of control on ground
+GAA27WA015,204046,1,1,Unknown,Unknown,990000,True,1,990,Unknown,000,Unknown or undetermined
+ERA27LA014,204034,1,1,Abnormal Runway Contact,Landing,551092,True,1,551,Landing-flare/touchdown,092,Hard landing
+DCA27WA018,204049,1,1,System/Component Failure (Non-Powerplant),Enroute,402331,True,1,402,Enroute-cruise,331,Pressure/environ sys malf/fail
+GAA27WA013,204020,1,1,Unknown,Unknown,990000,True,1,990,Unknown,000,Unknown or undetermined
+ERA27LA013,204033,1,1,System/Component Failure (Non-Powerplant),Landing,550330,True,1,550,Landing,330,Sys/Comp malf/fail (non-power)
+ERA27LA013,204033,1,2,Abnormal Runway Contact,Landing,550092,False,2,550,Landing,092,Hard landing
+ERA27LA008,204004,1,1,Loss Of Control (Inflight),Takeoff,300240,True,1,300,Takeoff,240,Loss of control in flight
+CEN27FA016,204002,1,1,Loss Of Control (Inflight),Enroute,402240,True,1,402,Enroute-cruise,240,Loss of control in flight
+GAA27WA011,204005,1,1,Unknown,Unknown,990000,True,1,990,Unknown,000,Unknown or undetermined
+GAA27WA014,204029,1,1,Unknown,Unknown,990000,True,1,990,Unknown,000,Unknown or undetermined
+CEN27LA014,203998,1,1,Unintended Flight Into IMC,InitialClimb,350402,True,1,350,Initial climb,402,Loss of visual reference
+CEN27LA017,204022,1,1,System/Component Failure (Non-Powerplant),Enroute,400333,True,1,400,Enroute,333,Flight control sys malf/fail
+WPR27FA015,203979,1,1,Loss Of Control (Inflight),Approach,507240,True,1,507,Approach-VFR pattern base,240,Loss of control in flight
+CEN27LA013,203995,1,1,System/Component Failure (Powerplant),InitialClimb,350341,True,1,350,Initial climb,341,Loss of engine power (total)
+CEN27LA009,203988,1,1,System/Component Failure (Powerplant),Maneuvering,450341,True,1,450,Maneuvering,341,Loss of engine power (total)
+WPR27LA016,203980,1,1,Abnormal Runway Contact,Landing,550095,True,1,550,Landing,095,Landing gear not configured
+DCA27LA014,204039,1,1,Turbulence,Enroute,404362,True,1,404,Enroute-descent,362,Clear air turbulence encounter
+GAA27WA010,204001,1,1,Unknown,Unknown,990000,True,1,990,Unknown,000,Unknown or undetermined
+WPR27FA014,203978,1,1,CFIT,Enroute,400120,True,1,400,Enroute,120,Controlled flight into terr/obj (CFIT)
+CEN27LA012,203991,1,1,Fuel,Approach,508191,True,1,508,Approach-VFR pattern final,191,Fuel starvation
+ERA27LA018,204040,1,1,Abnormal Runway Contact,Landing,551092,True,1,551,Landing-flare/touchdown,092,Hard landing
+GAA27WA008,203982,1,1,Unknown,Unknown,990000,True,1,990,Unknown,000,Unknown or undetermined
+CEN27LA011,203990,1,1,Fuel,Enroute,402192,True,1,402,Enroute-cruise,192,Fuel exhaustion
+WPR27LA017,203997,1,1,Loss Of Control (Ground),Landing,552230,True,1,552,Landing-landing roll,230,Loss of control on ground
+GAA27WA007,203981,1,1,Unknown,Unknown,990000,True,1,990,Unknown,000,Unknown or undetermined
+DCA27WA009,203977,1,1,Turbulence,Enroute,400360,True,1,400,Enroute,360,Turbulence encounter
+CEN27LA008,203976,1,1,Abnormal Runway Contact,Landing,551092,True,1,551,Landing-flare/touchdown,092,Hard landing
+GAA27WA012,204018,1,1,Unknown,Unknown,990000,True,1,990,Unknown,000,Unknown or undetermined

@@ -1,0 +1,32 @@
+NTSBNumber,Mkey,VehicleNumber,EventNumber,CICTTEventSOEGroup,CICTTPhaseSOEGroup,EventCode,IsDefiningEvent,SequenceNumber,Tier1Number,Tier1Name,Tier2Number,Tier2Name
+DCA24LA219,194544,1,1,Navigation Error,Takeoff,300284,True,1,300,Takeoff,284,Wrong surface or wrong airport
+ENG24LA014,194260,1,1,System/Component Failure (Powerplant),InitialClimb,350343,True,1,350,Initial climb,343,Uncontained engine failure
+DCA24LA174,194158,1,1,Turbulence,Enroute,404360,True,1,404,Enroute-descent,360,Turbulence encounter
+DCA24FA143,194028,1,1,Turbulence,Enroute,400360,True,1,400,Enroute,360,Turbulence encounter
+DCA24LA144,194029,1,1,Turbulence,Enroute,404360,True,1,404,Enroute-descent,360,Turbulence encounter
+DCA24LA135,194001,1,1,Turbulence,Enroute,400360,True,1,400,Enroute,360,Turbulence encounter
+DCA24LA130,193963,1,1,Turbulence,Enroute,402360,True,1,402,Enroute-cruise,360,Turbulence encounter
+DCA24LA124,193920,1,1,Turbulence,Enroute,404360,True,1,404,Enroute-descent,360,Turbulence encounter
+DCA24FA120,193898,1,1,Abnormal Runway Contact,Taxi,253094,False,1,253,Taxi-from runway,094,Landing gear collapse
+DCA24FA120,193898,1,2,Loss Of Control (Ground),Taxi,253230,True,2,253,Taxi-from runway,230,Loss of control on ground
+DCA24LA095,193772,1,1,Runway Excursion,Landing,552300,True,1,552,Landing-landing roll,300,Runway excursion
+DCA24LA097,193784,1,1,Turbulence,Enroute,404360,True,1,404,Enroute-descent,360,Turbulence encounter
+DCA24LA092,193765,1,1,Ground Collision,Standing,153200,True,1,153,Standing-engine(s) operating,200,Ground collision
+DCA24LA092,193765,2,1,Ground Collision,Taxi,250200,True,1,250,Taxi,200,Ground collision
+DCA24LA094,193768,1,1,System/Component Failure (Non-Powerplant),Landing,552333,True,1,552,Landing-landing roll,333,Flight control sys malf/fail
+DCA24LA079,193682,1,2,Fire,Enroute,401150,True,1,401,Enroute-climb to cruise,150,Fire/smoke (non-impact)
+DCA24LA065,193637,1,1,Abnormal Runway Contact,Landing,551091,True,1,551,Landing-flare/touchdown,091,Tailstrike
+DCA24MA063,193617,1,2,System/Component Failure (Non-Powerplant),Enroute,401338,True,1,401,Enroute-climb to cruise,338,Part(s) separation from AC
+DCA24LA330,195527,1,2,Birdstrike,Takeoff,300901,True,1,300,Takeoff,901,Birdstrike
+DCA24LA051,193561,1,1,Birdstrike,Enroute,401901,True,1,401,Enroute-climb to cruise,901,Birdstrike
+DCA24LA034,193459,1,2,Ground Collision,Taxi,250200,True,1,250,Taxi,200,Ground collision
+OPS24LA004,193314,1,1,Air Traffic,Approach,500100,True,1,500,Approach,100,Air traffic event
+OPS24LA004,193314,2,1,Air Traffic,Approach,508100,True,1,508,Approach-VFR pattern final,100,Air traffic event
+ENG24FA003,193272,1,3,Fire,InitialClimb,350150,True,1,350,Initial climb,150,Fire/smoke (non-impact)
+ENG24FA003,193272,1,2,System/Component Failure (Powerplant),InitialClimb,350340,False,2,350,Initial climb,340,Powerplant sys/comp malf/fail
+DCA24FA002,193196,1,1,Abnormal Runway Contact,Landing,550090,True,1,550,Landing,090,Abnormal runway contact
+DCA23LA468,193204,1,2,Fire,Takeoff,301150,True,1,301,Takeoff-rejected takeoff,150,Fire/smoke (non-impact)
+DCA23LA465,193179,1,2,Cabin Safety,Enroute,400110,False,2,400,Enroute,110,Cabin safety event
+DCA23LA465,193179,1,1,Turbulence,Enroute,402360,True,1,402,Enroute-cruise,360,Turbulence encounter
+DCA23LA462,193129,1,1,Turbulence,Enroute,402360,True,1,402,Enroute-cruise,360,Turbulence encounter
+DCA23LA445,193031,1,1,Turbulence,Enroute,404360,True,1,404,Enroute-descent,360,Turbulence encounter

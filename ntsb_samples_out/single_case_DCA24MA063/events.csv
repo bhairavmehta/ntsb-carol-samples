@@ -1,0 +1,2 @@
+NTSBNumber,Mkey,VehicleNumber,EventNumber,CICTTEventSOEGroup,CICTTPhaseSOEGroup,EventCode,IsDefiningEvent,SequenceNumber,Tier1Number,Tier1Name,Tier2Number,Tier2Name
+DCA24MA063,193617,1,2,System/Component Failure (Non-Powerplant),Enroute,401338,True,1,401,Enroute-climb to cruise,338,Part(s) separation from AC

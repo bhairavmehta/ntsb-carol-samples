@@ -1,0 +1,28 @@
+{
+  "run_at": "2026-10-22T12:10:43",
+  "samples": [
+    {
+      "name": "single_case_DCA24MA063",
+      "ntsb": "DCA24MA063"
+    },
+    {
+      "name": "part121_completed_2024H1",
+      "since": "2024-01-01",
+      "until": "2024-06-30",
+      "part121": true,
+      "completed": true
+    },
+    {
+      "name": "all_completed_2024_03_01_to_10",
+      "since": "2024-03-01",
+      "until": "2024-03-10",
+      "completed": true
+    },
+    {
+      "name": "recent_14_days",
+      "since": "2026-10-08",
+      "until": "2026-10-22",
+      "no_recs": true
+    }
+  ]
+}

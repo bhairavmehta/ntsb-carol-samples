@@ -1,0 +1,476 @@
+group,fieldName,displayName,type,operators,optionCount
+Common Investigation Fields > Admin Info,NTSBNumber,NTSB Number,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Common Investigation Fields > Admin Info,casedetail.TopicMode,Investigation Mode,dropdown,Contains|DoesNotContain|Equals|NotEquals,6
+Common Investigation Fields > Admin Info,MKey,Keys Number,number,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Common Investigation Fields > Admin Info,ReportNumber,Report Number,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Common Investigation Fields > Admin Info,hasSafetyRecommendation,Has Safety Recommendation,boolean,Equals|NotEquals,0
+Common Investigation Fields > Admin Info,LeadAgency,Lead Agency,dropdown,Equals|NotEquals,3
+Common Investigation Fields > Admin Info,OriginalPublishedDate,Original Published Date,date,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Common Investigation Fields > Basic Info,EventDate,Event date,date,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Common Investigation Fields > Basic Info,City,City,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Common Investigation Fields > Basic Info,StateOrRegion,State,state,Equals|NotEquals,0
+Common Investigation Fields > Basic Info,Country,Country,country,Equals|NotEquals,0
+Common Investigation Fields > Basic Info,HighestInjuryLevel,Highest Injury Level,dropdown,Equals|NotEquals,5
+Common Investigation Fields > Basic Info,EventType,Event type,dropdown,Equals|NotEquals,3
+Common Investigation Fields > Basic Info,HazmatInvolved,Hazmat Involved,boolean,Equals|NotEquals,0
+Common Investigation Fields > Other,FindingReportText,Finding Text,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Common Investigation Fields > Other,ProbableCause,Probable Cause,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Common Investigation Fields > Other,CompletionStatus,Status,dropdown,Equals|NotEquals,3
+Safety Recommendations > Basic Info,SafetyRecommendationNumber,Safety Recommendation ID,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Safety Recommendations > Basic Info,product.TopicMode,Recommendation topic mode,dropdown,Contains|DoesNotContain|Equals|NotEquals,6
+Safety Recommendations > Basic Info,IssuedDate,Date issued,date,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Safety Recommendations > Basic Info,Recommendation,Recommendation Text,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Safety Recommendations > Basic Info,Synopsis,Accident abstract text,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Safety Recommendations > Basic Info,Keywords,Keywords,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Safety Recommendations > Status,AddresseeStatus,All open or closed (addressee status),dropdown,Contains|DoesNotContain,2
+Safety Recommendations > Status,AddresseeStatus,Addressee status,dropdown,Equals|NotEquals,15
+Safety Recommendations > Status,OverallStatus,All open or closed (overall status),dropdown,Contains|DoesNotContain,2
+Safety Recommendations > Status,OverallStatus,Overall status,dropdown,Equals|NotEquals,15
+Safety Recommendations > Status,AddresseeDateClosed,Addressee Date Closed,date,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Safety Recommendations > Status,OverallDateClosed,Overall Date Closed,date,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Safety Recommendations > Addressee Details,AddresseeName,Addressee Name,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Safety Recommendations > Addressee Details,AddresseeAcronym,Addressee acronym,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Safety Recommendations > Addressee Details,AddresseeOrganizationType,Addressee Category,dropdown,Contains|DoesNotContain,12
+Safety Recommendations > Addressee Details,CommunicationType,Correspondence type,dropdown,Equals|NotEquals,7
+Safety Recommendations > Addressee Details,CommunicationContents,Correspondence text,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Safety Recommendations > Recommendation Details,product.Priority,Urgent Recommendation?,dropdown,Equals|NotEquals,2
+Safety Recommendations > Recommendation Details,isHazMat,Is Hazmat?,boolean,Equals|NotEquals,0
+Safety Recommendations > Recommendation Details,IsMultipleRecipientSR,Issued to multiple recipients?,boolean,Equals|NotEquals,0
+Safety Recommendations > Recommendation Details,IsTransit,Is Transit?,boolean,Equals|NotEquals,0
+Safety Recommendations > Recommendation Details,isReiterated,Is Reiterated?,boolean,Equals|NotEquals,0
+Safety Recommendations > Recommendation Details,TimesReiterated,Times reiterated,number,Equals|NotEquals|GreaterThan|LessThan,0
+Safety Recommendations > Recommendation Details,isNPRM,Is in NPRM response?,boolean,Equals|NotEquals,0
+Safety Recommendations > Recommendation Details,SafetyRecommendationCodingTier1+SafetyRecommendationCodingTier2,Coding text,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Safety Recommendations > Correspondence Details,CommunicationType,Correspondence type,dropdown,Equals|NotEquals,8
+Safety Recommendations > Correspondence Details,CommunicationContents,Correspondence text,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Aircraft Info,AircraftCategory,Aircraft Category,dropdown,Equals|NotEquals,13
+Aviation Fields > Aircraft Info,EngineManufacturer,Engine Manufacturer,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Aircraft Info,EngineModelSeries,Engine Model,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Aircraft Info,EngineType,Engine Type,dropdown,Equals|NotEquals,12
+Aviation Fields > Aircraft Info,RegistrationNumber,Registration Number,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Aircraft Info,Make,Aircraft Make,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Aircraft Info,Model,Aircraft Model,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Aircraft Info,AmateurBuilt,Amatuer Built,boolean,Equals|NotEquals,0
+Aviation Fields > Aircraft Info,NumberOfEngines,Number of Engines,number,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Aviation Fields > Aircraft Info,DamageLevel,Damage,dropdown,Equals|NotEquals,5
+Aviation Fields > Aircraft Info,vehicleid.AircraftUnmanned,Unmanned,boolean,Equals|NotEquals,0
+Aviation Fields > Aircraft Info,SerialNumber,Serial Number,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Airport Info,AirportLocationId,Airport ID,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Airport Info,AirportFacilityName,Airport name,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Operation,RegisteredOwner,Registered owner,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Operation,OperatorName,Operator name,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Operation,RegulationFlightConductedUnder,General aviation (GA),boolean,Equals|NotEquals,0
+Aviation Fields > Operation,RegulationFlightConductedUnder,FAR part,dropdown,Equals|NotEquals,21
+Aviation Fields > Operation,OperatorScope,Operator scope (Part 135),dropdown,Equals|NotEquals,4
+Aviation Fields > Operation,FlightOperationType,Purpose of flight,dropdown,Equals|NotEquals,22
+Aviation Fields > Operation,FlightServiceType,Passenger/cargo/mail,dropdown,Equals|NotEquals,3
+Aviation Fields > Operation,FlightScheduledType,Scheduled,dropdown,Equals|NotEquals,3
+Aviation Fields > Operation,AirMedical,Air medical,boolean,Equals|NotEquals,0
+Aviation Fields > Operation,RevenueSightseeing,Commercial sightseeing,boolean,Equals|NotEquals,0
+Aviation Fields > Operation,SecondPilotPresent,Second pilot present,boolean,Equals|NotEquals,0
+Aviation Fields > Injuries > On Board,InjuryOnboardCount,Total - Onboard,number,Equals|NotEquals|GreaterThan|LessThan,0
+Aviation Fields > Injuries > On Board,OnboardFatal,Fatal - Onboard,number,Equals|NotEquals|GreaterThan|LessThan,0
+Aviation Fields > Injuries > On Board,OnboardSerious,Serious - Onboard,number,Equals|NotEquals|GreaterThan|LessThan,0
+Aviation Fields > Injuries > On Board,OnboardMinor,Minor - Onboard,number,Equals|NotEquals|GreaterThan|LessThan,0
+Aviation Fields > Injuries > On Board,OnboardNone,None - Onboard,number,Equals|NotEquals|GreaterThan|LessThan,0
+Aviation Fields > Injuries > On Ground,InjuryOngroundCount,Total - On Ground (Minor or Greater),number,Equals|NotEquals|GreaterThan|LessThan,0
+Aviation Fields > Injuries > On Ground,OngroundFatal,Fatal - On Ground,number,Equals|NotEquals|GreaterThan|LessThan,0
+Aviation Fields > Injuries > On Ground,OngroundSerious,Serious - On Ground,number,Equals|NotEquals|GreaterThan|LessThan,0
+Aviation Fields > Injuries > On Ground,OngroundMinor,Minor - On Ground,number,Equals|NotEquals|GreaterThan|LessThan,0
+Aviation Fields > Narratives,narrativeplainchunks.ChunkText,Preliminary narrative,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Narratives,narrativeplainchunks.ChunkText,Factual narrative,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Narratives,narrativeplainchunks.ChunkText,Analysis narrative,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Aviation Fields > Sequence of Events,CICTTEventSOEGroup,Event category,dropdown,Equals|NotEquals,36
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Abnormal Runway Contact,dropdown,Equals|NotEquals,8
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Abrupt Maneuver,dropdown,Equals|NotEquals,2
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Air Traffic,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Airport Occurrence,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Birdstrike,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Cabin Safety,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Collision During Takeoff/Land,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,CFIT,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Evacuation,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,External Load Event (Rotorcraft),dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Fire,dropdown,Equals|NotEquals,4
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Fuel,dropdown,Equals|NotEquals,5
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Glider Towing,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Ground Collision,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Ground Handling,dropdown,Equals|NotEquals,5
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Icing,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Loss Of Control (Inflight),dropdown,Equals|NotEquals,6
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Loss Of Control (Ground),dropdown,Equals|NotEquals,3
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Loss of Lift,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Low Altitude Operation/Event,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Medical Event,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Midair,dropdown,Equals|NotEquals,2
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Navigation Error,dropdown,Equals|NotEquals,5
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Other,dropdown,Equals|NotEquals,15
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Runway Excursion,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Runway Incursion,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Security Related,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Simulated/training event,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,System/Component Failure (Non-Powerplant),dropdown,Equals|NotEquals,9
+Aviation Fields > Sequence of Events > Event category,Tier2Number,System/Component Failure (Powerplant),dropdown,Equals|NotEquals,4
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Turbulence,dropdown,Equals|NotEquals,3
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Undershoot/Overshoot,dropdown,Equals|NotEquals,2
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Unintended Flight Into IMC,dropdown,Equals|NotEquals,2
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Unknown,dropdown,Equals|NotEquals,2
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Wildlife Encounter (non-bird),dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Event category,Tier2Number,Windshear/Thunderstorm,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events,CICTTPhaseSOEGroup,Phase of Flight,dropdown,Equals|NotEquals,14
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,After Landing,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Approach,dropdown,Equals|NotEquals,10
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Emergency Descent,dropdown,Equals|NotEquals,2
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Enroute,dropdown,Equals|NotEquals,6
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Initial Climb,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Landing,dropdown,Equals|NotEquals,4
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Maneuvering,dropdown,Equals|NotEquals,4
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Post-Impact,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Pushback/Tow,dropdown,Equals|NotEquals,5
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Standing,dropdown,Equals|NotEquals,6
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Takeoff,dropdown,Equals|NotEquals,2
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Taxi,dropdown,Equals|NotEquals,4
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Uncontrolled Descent,dropdown,Equals|NotEquals,1
+Aviation Fields > Sequence of Events > Phase of Flight,Tier1Name,Unknown,dropdown,Equals|NotEquals,2
+Aviation Fields,finding_Tier1Name,Finding Type,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type,finding_Tier2Name,Aircraft,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Aircraft,finding_Tier3Name,Aircraft systems,dropdown,Equals|NotEquals,20
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Air conditioning system,dropdown,Equals|NotEquals,16
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Auto flight system,dropdown,Equals|NotEquals,11
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Communications system,dropdown,Equals|NotEquals,10
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Electrical power system,dropdown,Equals|NotEquals,19
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Equipment/furnishings,dropdown,Equals|NotEquals,16
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Fire protection system,dropdown,Equals|NotEquals,8
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Flight control system,dropdown,Equals|NotEquals,21
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Fuel system,dropdown,Equals|Equals|NotEquals|NotEquals,13
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Hydraulic power system,dropdown,Equals|NotEquals,22
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Ice/rain protection system,dropdown,Equals|NotEquals,9
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Indicating/recording systems,dropdown,Equals|NotEquals,8
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Landing gear system,dropdown,Equals|NotEquals,26
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Lighting system,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Navigation system,dropdown,Equals|NotEquals,40
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Oxygen system,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Pneumatic system,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Vacuum system,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Water and waste system,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Central maintenance computer,dropdown,Equals|NotEquals,1
+Aviation Fields > Finding Type > Aircraft > Aircraft systems,finding_Tier4Name,Airborne APU system,dropdown,Equals|NotEquals,10
+Aviation Fields > Finding Type > Aircraft,finding_Tier3Name,Aircraft structures,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Aircraft > Aircraft structures,finding_Tier4Name,Doors,dropdown,Equals|NotEquals,17
+Aviation Fields > Finding Type > Aircraft > Aircraft structures,finding_Tier4Name,Fuselage,dropdown,Equals|NotEquals,24
+Aviation Fields > Finding Type > Aircraft > Aircraft structures,finding_Tier4Name,Nacelles/pylons structure,dropdown,Equals|NotEquals,8
+Aviation Fields > Finding Type > Aircraft > Aircraft structures,finding_Tier4Name,Empennage structure,dropdown,Equals|NotEquals,26
+Aviation Fields > Finding Type > Aircraft > Aircraft structures,finding_Tier4Name,Windows-windshield system,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Aircraft > Aircraft structures,finding_Tier4Name,Wing structure,dropdown,Equals|NotEquals,19
+Aviation Fields > Finding Type > Aircraft,finding_Tier3Name,Aircraft propeller/rotor,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Aircraft > Aircraft propeller/rotor,finding_Tier4Name,Propeller system,dropdown,Equals|NotEquals,11
+Aviation Fields > Finding Type > Aircraft > Aircraft propeller/rotor,finding_Tier4Name,Main rotor system,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Aircraft > Aircraft propeller/rotor,finding_Tier4Name,Main rotor drive,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Aircraft > Aircraft propeller/rotor,finding_Tier4Name,Tail rotor,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Aircraft > Aircraft propeller/rotor,finding_Tier4Name,Tail rotor drive system,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Aircraft > Aircraft propeller/rotor,finding_Tier4Name,Rotorcraft flight control,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Aircraft,finding_Tier3Name,Aircraft power plant,dropdown,Equals|NotEquals,14
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Power plant,dropdown,Equals|NotEquals,8
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Engine (turbine/turboprop),dropdown,Equals|NotEquals,9
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Engine fuel and control,dropdown,Equals|NotEquals,16
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Ignition system,dropdown,Equals|NotEquals,9
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Engine bleed air system,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Engine controls,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Engine indicating system,dropdown,Equals|NotEquals,13
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Engine exhaust,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Eng oil sys (airframe furnish),dropdown,Equals|NotEquals,10
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Engine starting,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Turbocharging (recip only),dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Water injection,dropdown,Equals|NotEquals,1
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Accessory gear-boxes,dropdown,Equals|NotEquals,1
+Aviation Fields > Finding Type > Aircraft > Aircraft power plant,finding_Tier4Name,Engine (reciprocating),dropdown,Equals|NotEquals,8
+Aviation Fields > Finding Type > Aircraft,finding_Tier3Name,Aircraft oper/perf/capability,dropdown,Equals|NotEquals,2
+Aviation Fields > Finding Type > Aircraft > Aircraft oper/perf/capability,finding_Tier4Name,Aircraft capability,dropdown,Equals|NotEquals,9
+Aviation Fields > Finding Type > Aircraft > Aircraft oper/perf/capability,finding_Tier4Name,Performance/control parameters,dropdown,Equals|NotEquals,20
+Aviation Fields > Finding Type > Aircraft,finding_Tier3Name,Fluids/misc hardware,dropdown,Equals|NotEquals,2
+Aviation Fields > Finding Type > Aircraft > Fluids/misc hardware,finding_Tier4Name,Fluids,dropdown,Equals|NotEquals,10
+Aviation Fields > Finding Type > Aircraft > Fluids/misc hardware,finding_Tier4Name,Misc hardware,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Aircraft,finding_Tier3Name,Aircraft handling/service,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Aircraft > Aircraft handling/service,finding_Tier4Name,Maintenance/inspections,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Aircraft > Aircraft handling/service,finding_Tier4Name,Towing and taxiing,dropdown,Equals|NotEquals,2
+Aviation Fields > Finding Type > Aircraft > Aircraft handling/service,finding_Tier4Name,Parking/securing,dropdown,Equals|NotEquals,2
+Aviation Fields > Finding Type,finding_Tier2Name,Personnel issues,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Personnel issues,finding_Tier3Name,Physical,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Personnel issues > Physical,finding_Tier4Name,Physical characteristic,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Personnel issues > Physical,finding_Tier4Name,Sensory ability/limitation,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Personnel issues > Physical,finding_Tier4Name,Impairment/incapacitation,dropdown,Equals|NotEquals,10
+Aviation Fields > Finding Type > Personnel issues > Physical,finding_Tier4Name,Health/Fitness,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Personnel issues > Physical,finding_Tier4Name,Alertness/Fatigue,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Personnel issues,finding_Tier3Name,Psychological,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Personnel issues > Psychological,finding_Tier4Name,Personality/attitude,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Personnel issues > Psychological,finding_Tier4Name,Attention/monitoring,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Personnel issues > Psychological,finding_Tier4Name,Perception/orientation/illusion,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Personnel issues > Psychological,finding_Tier4Name,Mental/emotional state,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Personnel issues > Psychological,finding_Tier4Name,Cognitive limitation,dropdown,Equals|NotEquals,2
+Aviation Fields > Finding Type > Personnel issues,finding_Tier3Name,Experience/knowledge,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Personnel issues > Experience/knowledge,finding_Tier4Name,Experience/qualifications,dropdown,Equals|NotEquals,9
+Aviation Fields > Finding Type > Personnel issues > Experience/knowledge,finding_Tier4Name,Training,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Personnel issues > Experience/knowledge,finding_Tier4Name,Knowledge,dropdown,Equals|NotEquals,8
+Aviation Fields > Finding Type > Personnel issues,finding_Tier3Name,Action/decision,dropdown,Equals|NotEquals,2
+Aviation Fields > Finding Type > Personnel issues > Action/decision,finding_Tier4Name,Action,dropdown,Equals|NotEquals,8
+Aviation Fields > Finding Type > Personnel issues > Action/decision,finding_Tier4Name,Info processing/decision,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Personnel issues,finding_Tier3Name,Task performance,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Personnel issues > Task performance,finding_Tier4Name,Planning/preparation,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Personnel issues > Task performance,finding_Tier4Name,Inspection,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Personnel issues > Task performance,finding_Tier4Name,Maintenance,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Personnel issues > Task performance,finding_Tier4Name,Record-keeping,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Personnel issues > Task performance,finding_Tier4Name,Use of equip/info,dropdown,Equals|NotEquals,8
+Aviation Fields > Finding Type > Personnel issues > Task performance,finding_Tier4Name,Communication (personnel),dropdown,Equals|NotEquals,10
+Aviation Fields > Finding Type > Personnel issues > Task performance,finding_Tier4Name,Workload management,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Personnel issues,finding_Tier3Name,Miscellaneous,dropdown,Equals|NotEquals,1
+Aviation Fields > Finding Type > Personnel issues > Miscellaneous,finding_Tier4Name,Intentional act,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type,finding_Tier2Name,Environmental issues,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Environmental issues,finding_Tier3Name,Operating environment,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Environmental issues > Operating environment,finding_Tier4Name,En route navaid coverage/avail,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Environmental issues > Operating environment,finding_Tier4Name,Approach aid coverage/avail,dropdown,Equals|NotEquals,13
+Aviation Fields > Finding Type > Environmental issues > Operating environment,finding_Tier4Name,Meteorological services,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Environmental issues > Operating environment,finding_Tier4Name,Air traffic/operating proc,dropdown,Equals|NotEquals,13
+Aviation Fields > Finding Type > Environmental issues > Operating environment,finding_Tier4Name,Radar services/coverage,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Environmental issues > Operating environment,finding_Tier4Name,Communication system,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Environmental issues > Operating environment,finding_Tier4Name,Airport facilities/design,dropdown,Equals|NotEquals,16
+Aviation Fields > Finding Type > Environmental issues,finding_Tier3Name,Physical environment,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Environmental issues > Physical environment,finding_Tier4Name,Terrain,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Environmental issues > Physical environment,finding_Tier4Name,Object/animal/substance,dropdown,Equals|NotEquals,21
+Aviation Fields > Finding Type > Environmental issues > Physical environment,finding_Tier4Name,Runway/land/takeoff/taxi surface,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Environmental issues,finding_Tier3Name,Conditions/weather/phenomena,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Environmental issues > Conditions/weather/phenomena,finding_Tier4Name,Temp/humidity/pressure,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Environmental issues > Conditions/weather/phenomena,finding_Tier4Name,Turbulence,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Environmental issues > Conditions/weather/phenomena,finding_Tier4Name,Convective weather,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Environmental issues > Conditions/weather/phenomena,finding_Tier4Name,Wind,dropdown,Equals|NotEquals,11
+Aviation Fields > Finding Type > Environmental issues > Conditions/weather/phenomena,finding_Tier4Name,Ceiling/visibility/precip,dropdown,Equals|NotEquals,14
+Aviation Fields > Finding Type > Environmental issues > Conditions/weather/phenomena,finding_Tier4Name,Light condition,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Environmental issues,finding_Tier3Name,Task environment,dropdown,Equals|NotEquals,2
+Aviation Fields > Finding Type > Environmental issues > Task environment,finding_Tier4Name,Physical workspace,dropdown,Equals|NotEquals,10
+Aviation Fields > Finding Type > Environmental issues > Task environment,finding_Tier4Name,Pressures/demands,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type,finding_Tier2Name,Organizational issues,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Organizational issues,finding_Tier3Name,Development,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Organizational issues > Development,finding_Tier4Name,Design,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Organizational issues > Development,finding_Tier4Name,Selection/certification/testing,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Organizational issues > Development,finding_Tier4Name,Manufacture/production,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Organizational issues > Development,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Aviation Fields > Finding Type > Organizational issues,finding_Tier3Name,Management,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Organizational issues > Management,finding_Tier4Name,Policy/procedure,dropdown,Equals|NotEquals,2
+Aviation Fields > Finding Type > Organizational issues > Management,finding_Tier4Name,Resources,dropdown,Equals|NotEquals,8
+Aviation Fields > Finding Type > Organizational issues > Management,finding_Tier4Name,Scheduling,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Organizational issues > Management,finding_Tier4Name,Culture,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Organizational issues > Management,finding_Tier4Name,Communication (organizational),dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Organizational issues > Management,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Aviation Fields > Finding Type > Organizational issues,finding_Tier3Name,Support/oversight/monitoring,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Organizational issues > Support/oversight/monitoring,finding_Tier4Name,Training,dropdown,Equals|NotEquals,5
+Aviation Fields > Finding Type > Organizational issues > Support/oversight/monitoring,finding_Tier4Name,Oversight,dropdown,Equals|NotEquals,7
+Aviation Fields > Finding Type > Organizational issues > Support/oversight/monitoring,finding_Tier4Name,Documentation/record keeping,dropdown,Equals|NotEquals,4
+Aviation Fields > Finding Type > Organizational issues > Support/oversight/monitoring,finding_Tier4Name,Enforcement,dropdown,Equals|NotEquals,6
+Aviation Fields > Finding Type > Organizational issues > Support/oversight/monitoring,finding_Tier4Name,Safety programs,dropdown,Equals|NotEquals,3
+Aviation Fields > Finding Type > Organizational issues > Support/oversight/monitoring,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Aviation Fields > Finding Type > Not determined,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,2
+Aviation Fields > Weather,AccidentSiteCondition,Basic weather condition,dropdown,Equals|NotEquals,3
+Highway Fields > Crash Info,City,City,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Highway Fields > Crash Info,StateOrRegion,State,state,Equals|NotEquals,0
+Highway Fields > Crash Info,EventDate,Event Date,date,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Highway Fields > Crash Info,HazmatInvolved,Hazmat Involved,boolean,Equals|NotEquals,0
+Highway Fields > Vehicle Info,VehicleType,Vehicle Type,dropdown,Equals|NotEquals,13
+Highway Fields > Vehicle Info,VehicleYear,Year,number,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Highway Fields > Vehicle Info,VehicleMake,Make,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Highway Fields > Vehicle Info,VehicleModel,Model,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Highway Fields > Crash > Injuries,MinorInjuryCount,Minor Injuries,number,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Highway Fields > Crash > Injuries,SeriousInjuryCount,Serious Injuries,number,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Highway Fields > Crash > Injuries,FatalInjuryCount,Fatal Injuries,number,Equals|NotEquals|GreaterThanEqualTo|LessThanEqualTo|GreaterThan|LessThan,0
+Highway Fields > Narratives,PrelimNarrative,Preliminary Narratives,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Highway Fields > Narratives,ProbableCause,Probable Cause,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Highway Fields > Narratives,finding_Tier1Name,Finding Type,dropdown,Equals|NotEquals,5
+Highway Fields > Narratives > Finding Type,finding_Tier2Name,Vehicle issues,dropdown,Equals|NotEquals,7
+Highway Fields > Narratives > Finding Type > Vehicle issues,finding_Tier3Name,Vehicle handling/service,dropdown,Equals|NotEquals,8
+Highway Fields > Narratives > Finding Type > Vehicle issues > Vehicle handling/service,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,13
+Highway Fields > Narratives > Finding Type > Vehicle issues,finding_Tier3Name,Vehicle systems/equipment,dropdown,Equals|NotEquals,13
+Highway Fields > Narratives > Finding Type > Vehicle issues > Vehicle systems/equipment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Highway Fields > Narratives > Finding Type > Vehicle issues,finding_Tier3Name,Vehicle structure/chassis,dropdown,Equals|NotEquals,5
+Highway Fields > Narratives > Finding Type > Vehicle issues > Vehicle structure/chassis,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Highway Fields > Narratives > Finding Type > Vehicle issues,finding_Tier3Name,Vehicle drive train,dropdown,Equals|NotEquals,6
+Highway Fields > Narratives > Finding Type > Vehicle issues > Vehicle drive train,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Highway Fields > Narratives > Finding Type > Vehicle issues,finding_Tier3Name,Vehicle engine/motor ,dropdown,Equals|NotEquals,9
+Highway Fields > Narratives > Finding Type > Vehicle issues > Vehicle engine/motor ,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Highway Fields > Narratives > Finding Type > Vehicle issues,finding_Tier3Name,Vehicle operation/capability,dropdown,Equals|NotEquals,2
+Highway Fields > Narratives > Finding Type > Vehicle issues > Vehicle operation/capability,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,11
+Highway Fields > Narratives > Finding Type > Vehicle issues,finding_Tier3Name,Miscellaneous equipment,dropdown,Equals|NotEquals,2
+Highway Fields > Narratives > Finding Type > Vehicle issues > Miscellaneous equipment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,26
+Highway Fields > Narratives > Finding Type,finding_Tier2Name,Personnel issues,dropdown,Equals|NotEquals,6
+Highway Fields > Narratives > Finding Type > Personnel issues,finding_Tier3Name,Physical,dropdown,Equals|NotEquals,5
+Highway Fields > Narratives > Finding Type > Personnel issues > Physical,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,18
+Highway Fields > Narratives > Finding Type > Personnel issues,finding_Tier3Name,Psychological,dropdown,Equals|NotEquals,5
+Highway Fields > Narratives > Finding Type > Personnel issues > Psychological,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,18
+Highway Fields > Narratives > Finding Type > Personnel issues,finding_Tier3Name,Experience/knowledge,dropdown,Equals|NotEquals,4
+Highway Fields > Narratives > Finding Type > Personnel issues > Experience/knowledge,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,18
+Highway Fields > Narratives > Finding Type > Personnel issues,finding_Tier3Name,Action/decision,dropdown,Equals|NotEquals,2
+Highway Fields > Narratives > Finding Type > Personnel issues > Action/decision,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,18
+Highway Fields > Narratives > Finding Type > Personnel issues,finding_Tier3Name,Task performance,dropdown,Equals|NotEquals,7
+Highway Fields > Narratives > Finding Type > Personnel issues > Task performance,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,18
+Highway Fields > Narratives > Finding Type > Personnel issues,finding_Tier3Name,Miscellaneous,dropdown,Equals|NotEquals,1
+Highway Fields > Narratives > Finding Type > Personnel issues > Miscellaneous,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,18
+Highway Fields > Narratives > Finding Type,finding_Tier2Name,Environment issues,dropdown,Equals|NotEquals,4
+Highway Fields > Narratives > Finding Type > Environment issues,finding_Tier3Name,Operating environment,dropdown,Equals|NotEquals,5
+Highway Fields > Narratives > Finding Type > Environment issues > Operating environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Highway Fields > Narratives > Finding Type > Environment issues,finding_Tier3Name,Physical environment,dropdown,Equals|NotEquals,3
+Highway Fields > Narratives > Finding Type > Environment issues > Physical environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Highway Fields > Narratives > Finding Type > Environment issues,finding_Tier3Name,Conditions/weather/phenomena,dropdown,Equals|NotEquals,5
+Highway Fields > Narratives > Finding Type > Environment issues > Conditions/weather/phenomena,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Highway Fields > Narratives > Finding Type > Environment issues,finding_Tier3Name,Task environment,dropdown,Equals|NotEquals,2
+Highway Fields > Narratives > Finding Type > Environment issues > Task environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Highway Fields > Narratives > Finding Type,finding_Tier2Name,Organizational issues,dropdown,Equals|NotEquals,3
+Highway Fields > Narratives > Finding Type > Organizational issues,finding_Tier3Name,Development,dropdown,Equals|NotEquals,3
+Highway Fields > Narratives > Finding Type > Organizational issues > Development,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,12
+Highway Fields > Narratives > Finding Type > Organizational issues,finding_Tier3Name,Management,dropdown,Equals|NotEquals,5
+Highway Fields > Narratives > Finding Type > Organizational issues > Management,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,12
+Highway Fields > Narratives > Finding Type > Organizational issues,finding_Tier3Name,Support/oversight/monitoring,dropdown,Equals|NotEquals,5
+Highway Fields > Narratives > Finding Type > Organizational issues > Support/oversight/monitoring,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,12
+Highway Fields > Narratives > Finding Type > Not determined,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,2
+Highway Fields > Sequence of Events,Tier1Name,Vehicle Phase,dropdown,Equals|NotEquals,30
+Highway Fields > Sequence of Events,Tier2Name,Event/Occurence,dropdown,Equals|NotEquals,53
+Marine Fields,VesselType,Vessel Type,dropdown,Equals|NotEquals,23
+Marine Fields,VesselName,Vessel Name,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Marine Fields,finding_Tier1Name,Finding Type,dropdown,Equals|NotEquals,5
+Marine Fields > Finding Type,finding_Tier2Name,Vessels and equipment,dropdown,Equals|NotEquals,7
+Marine Fields > Finding Type > Vessels and equipment,finding_Tier3Name,Vessel handling/service,dropdown,Equals|NotEquals,6
+Marine Fields > Finding Type > Vessels and equipment > Vessel handling/service,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,11
+Marine Fields > Finding Type > Vessels and equipment,finding_Tier3Name,Vessel systems/equipment,dropdown,Equals|NotEquals,24
+Marine Fields > Finding Type > Vessels and equipment > Vessel systems/equipment,finding_Tier4Name,HVAC,dropdown,Equals|NotEquals,4
+Marine Fields > Finding Type > Vessels and equipment > Vessel systems/equipment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,23
+Marine Fields > Finding Type > Vessels and equipment,finding_Tier3Name,Vessel structures,dropdown,Equals|NotEquals,7
+Marine Fields > Finding Type > Vessels and equipment > Vessel structures,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,23
+Marine Fields > Finding Type > Vessels and equipment,finding_Tier3Name,Vessel propulsion,dropdown,Equals|NotEquals,2
+Marine Fields > Finding Type > Vessels and equipment > Vessel propulsion,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,23
+Marine Fields > Finding Type > Vessels and equipment,finding_Tier3Name,Vessel powerplant,dropdown,Equals|NotEquals,12
+Marine Fields > Finding Type > Vessels and equipment > Vessel powerplant,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,23
+Marine Fields > Finding Type > Vessels and equipment,finding_Tier3Name,Vessel oper/perf/capability/handling,dropdown,Equals|NotEquals,2
+Marine Fields > Finding Type > Vessels and equipment > Vessel oper/perf/capability/handling,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,9
+Marine Fields > Finding Type > Vessels and equipment,finding_Tier3Name,Misc equipment,dropdown,Equals|NotEquals,2
+Marine Fields > Finding Type > Vessels and equipment > Misc equipment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,27
+Marine Fields > Finding Type,finding_Tier2Name,Personnel issues,dropdown,Equals|NotEquals,6
+Marine Fields > Finding Type > Personnel issues,finding_Tier3Name,Physical,dropdown,Equals|NotEquals,5
+Marine Fields > Finding Type > Personnel issues > Physical,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Marine Fields > Finding Type > Personnel issues,finding_Tier3Name,Psychological,dropdown,Equals|NotEquals,5
+Marine Fields > Finding Type > Personnel issues > Psychological,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Marine Fields > Finding Type > Personnel issues,finding_Tier3Name,Experience/knowledge,dropdown,Equals|NotEquals,4
+Marine Fields > Finding Type > Personnel issues > Experience/knowledge,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Marine Fields > Finding Type > Personnel issues,finding_Tier3Name,Action/decision,dropdown,Equals|NotEquals,2
+Marine Fields > Finding Type > Personnel issues > Action/decision,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Marine Fields > Finding Type > Personnel issues,finding_Tier3Name,Miscellaneous,dropdown,Equals|NotEquals,1
+Marine Fields > Finding Type > Personnel issues > Miscellaneous,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Marine Fields > Finding Type > Personnel issues,finding_Tier3Name,Task performance,dropdown,Equals|NotEquals,7
+Marine Fields > Finding Type > Personnel issues > Task performance,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Marine Fields > Finding Type,finding_Tier2Name,Environmental issues,dropdown,Equals|NotEquals,4
+Marine Fields > Finding Type > Environmental issues,finding_Tier3Name,Operating environment,dropdown,Equals|NotEquals,9
+Marine Fields > Finding Type > Environmental issues > Operating environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Marine Fields > Finding Type > Environmental issues,finding_Tier3Name,Physical environment,dropdown,Equals|NotEquals,3
+Marine Fields > Finding Type > Environmental issues > Physical environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Marine Fields > Finding Type > Environmental issues,finding_Tier3Name,Conditions/weather/phenomena,dropdown,Equals|NotEquals,8
+Marine Fields > Finding Type > Environmental issues > Conditions/weather/phenomena,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Marine Fields > Finding Type > Environmental issues,finding_Tier3Name,Task environment,dropdown,Equals|NotEquals,2
+Marine Fields > Finding Type > Environmental issues > Task environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Marine Fields > Finding Type,finding_Tier2Name,Organizational issues,dropdown,Equals|NotEquals,3
+Marine Fields > Finding Type > Organizational issues,finding_Tier3Name,Development,dropdown,Equals|NotEquals,3
+Marine Fields > Finding Type > Organizational issues > Development,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,16
+Marine Fields > Finding Type > Organizational issues,finding_Tier3Name,Management,dropdown,Equals|NotEquals,5
+Marine Fields > Finding Type > Organizational issues > Management,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,16
+Marine Fields > Finding Type > Organizational issues,finding_Tier3Name,Support/oversight/monitoring,dropdown,Equals|NotEquals,5
+Marine Fields > Finding Type > Organizational issues > Support/oversight/monitoring,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,16
+Marine Fields > Finding Type > Not determined,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,2
+Railroad Fields,TrainType,Train Type,dropdown,Equals|NotEquals,4
+Railroad Fields,RailroadName,Railroad Name,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Railroad Fields,finding_Tier1Name,Finding Type,dropdown,Equals|NotEquals,5
+Railroad Fields > Finding Type,finding_Tier2Name,Train,dropdown,Equals|NotEquals,6
+Railroad Fields > Finding Type > Train,finding_Tier3Name,Train handling/service,dropdown,Equals|NotEquals,8
+Railroad Fields > Finding Type > Train > Train handling/service,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,24
+Railroad Fields > Finding Type > Train,finding_Tier3Name,Train systems,dropdown,Equals|NotEquals,9
+Railroad Fields > Finding Type > Train > Train systems,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,24
+Railroad Fields > Finding Type > Train,finding_Tier3Name,Traincar structure,dropdown,Equals|NotEquals,9
+Railroad Fields > Finding Type > Train > Traincar structure,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,24
+Railroad Fields > Finding Type > Train,finding_Tier3Name,Locomotive/motive power,dropdown,Equals|NotEquals,5
+Railroad Fields > Finding Type > Train > Locomotive/motive power,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,24
+Railroad Fields > Finding Type > Train,finding_Tier3Name,Train operation/capability,dropdown,Equals|NotEquals,2
+Railroad Fields > Finding Type > Train > Train operation/capability,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,24
+Railroad Fields > Finding Type > Train,finding_Tier3Name,Miscellaneous equipment,dropdown,Equals|NotEquals,5
+Railroad Fields > Finding Type > Train > Miscellaneous equipment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,24
+Railroad Fields > Finding Type,finding_Tier2Name,Personnel,dropdown,Equals|NotEquals,6
+Railroad Fields > Finding Type > Personnel,finding_Tier3Name,Physical,dropdown,Equals|NotEquals,5
+Railroad Fields > Finding Type > Personnel > Physical,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Railroad Fields > Finding Type > Personnel,finding_Tier3Name,Psychological,dropdown,Equals|NotEquals,5
+Railroad Fields > Finding Type > Personnel > Psychological,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Railroad Fields > Finding Type > Personnel,finding_Tier3Name,Experience/knowledge,dropdown,Equals|NotEquals,4
+Railroad Fields > Finding Type > Personnel > Experience/knowledge,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Railroad Fields > Finding Type > Personnel,finding_Tier3Name,Action/decision,dropdown,Equals|NotEquals,2
+Railroad Fields > Finding Type > Personnel > Action/decision,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Railroad Fields > Finding Type > Personnel,finding_Tier3Name,Miscellaneous,dropdown,Equals|NotEquals,1
+Railroad Fields > Finding Type > Personnel > Miscellaneous,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Railroad Fields > Finding Type > Personnel,finding_Tier3Name,Task performance,dropdown,Equals|NotEquals,8
+Railroad Fields > Finding Type > Personnel > Task performance,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,22
+Railroad Fields > Finding Type,finding_Tier2Name,Environment/Infrastructure,dropdown,Equals|NotEquals,4
+Railroad Fields > Finding Type > Environment/Infrastructure,finding_Tier3Name,Operating environment/track/signals,dropdown,Equals|NotEquals,10
+Railroad Fields > Finding Type > Environment/Infrastructure > Operating environment/track/signals,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Railroad Fields > Finding Type > Environment/Infrastructure,finding_Tier3Name,Physical environment,dropdown,Equals|NotEquals,2
+Railroad Fields > Finding Type > Environment/Infrastructure > Physical environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Railroad Fields > Finding Type > Environment/Infrastructure,finding_Tier3Name,Conditions/weather/phenomena,dropdown,Equals|NotEquals,5
+Railroad Fields > Finding Type > Environment/Infrastructure > Conditions/weather/phenomena,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Railroad Fields > Finding Type > Environment/Infrastructure,finding_Tier3Name,Task environment,dropdown,Equals|NotEquals,2
+Railroad Fields > Finding Type > Environment/Infrastructure > Task environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Railroad Fields > Finding Type,finding_Tier2Name,Organizational,dropdown,Equals|NotEquals,3
+Railroad Fields > Finding Type > Organizational,finding_Tier3Name,Development,dropdown,Equals|NotEquals,3
+Railroad Fields > Finding Type > Organizational > Development,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,12
+Railroad Fields > Finding Type > Organizational,finding_Tier3Name,Management,dropdown,Equals|NotEquals,5
+Railroad Fields > Finding Type > Organizational > Management,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,12
+Railroad Fields > Finding Type > Organizational,finding_Tier3Name,Support/oversight/monitoring,dropdown,Equals|NotEquals,5
+Railroad Fields > Finding Type > Organizational > Support/oversight/monitoring,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,12
+Railroad Fields > Finding Type > Not determined,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,2
+Pipeline Fields,PipelineOperator,Pipeline Operator,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Pipeline Fields,PipelineType,Pipeline Type,dropdown,Equals|NotEquals,6
+Pipeline Fields,finding_Tier1Name,Finding Type,dropdown,Equals|NotEquals,5
+Pipeline Fields > Finding Type,finding_Tier2Name,Pipeline,dropdown,Equals|NotEquals,6
+Pipeline Fields > Finding Type > Pipeline,finding_Tier3Name,Pipeline handling/service,dropdown,Equals|NotEquals,5
+Pipeline Fields > Finding Type > Pipeline > Pipeline handling/service,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,25
+Pipeline Fields > Finding Type > Pipeline,finding_Tier3Name,Pipline systems/equipment,dropdown,Equals|NotEquals,8
+Pipeline Fields > Finding Type > Pipeline > Pipline systems/equipment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,25
+Pipeline Fields > Finding Type > Pipeline,finding_Tier3Name,Pipeline structure,dropdown,Equals|NotEquals,4
+Pipeline Fields > Finding Type > Pipeline > Pipeline structure,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,25
+Pipeline Fields > Finding Type > Pipeline,finding_Tier3Name,Pumps/compressors,dropdown,Equals|NotEquals,3
+Pipeline Fields > Finding Type > Pipeline > Pumps/compressors,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,25
+Pipeline Fields > Finding Type > Pipeline,finding_Tier3Name,Pipeline operation/capability,dropdown,Equals|NotEquals,2
+Pipeline Fields > Finding Type > Pipeline > Pipeline operation/capability,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,25
+Pipeline Fields > Finding Type > Pipeline,finding_Tier3Name,Miscellaneous equipment,dropdown,Equals|NotEquals,2
+Pipeline Fields > Finding Type > Pipeline > Miscellaneous equipment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,29
+Pipeline Fields > Finding Type,finding_Tier2Name,Personnel,dropdown,Equals|NotEquals,6
+Pipeline Fields > Finding Type > Personnel,finding_Tier3Name,Physical,dropdown,Equals|NotEquals,5
+Pipeline Fields > Finding Type > Personnel > Physical,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type > Personnel,finding_Tier3Name,Psychological,dropdown,Equals|NotEquals,5
+Pipeline Fields > Finding Type > Personnel > Psychological,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type > Personnel,finding_Tier3Name,Experience/knowledge,dropdown,Equals|NotEquals,4
+Pipeline Fields > Finding Type > Personnel > Experience/knowledge,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type > Personnel,finding_Tier3Name,Action/decision,dropdown,Equals|NotEquals,2
+Pipeline Fields > Finding Type > Personnel > Action/decision,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type > Personnel,finding_Tier3Name,Miscellaneous,dropdown,Equals|NotEquals,1
+Pipeline Fields > Finding Type > Personnel > Miscellaneous,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type > Personnel,finding_Tier3Name,Task performance,dropdown,Equals|NotEquals,7
+Pipeline Fields > Finding Type > Personnel > Task performance,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type,finding_Tier2Name,Environment/Infrastructure,dropdown,Equals|NotEquals,4
+Pipeline Fields > Finding Type > Environment/Infrastructure,finding_Tier3Name,Operating environment/control system,dropdown,Equals|NotEquals,5
+Pipeline Fields > Finding Type > Environment/Infrastructure > Operating environment/control system,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type > Environment/Infrastructure,finding_Tier3Name,Physical environment,dropdown,Equals|NotEquals,3
+Pipeline Fields > Finding Type > Environment/Infrastructure > Physical environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type > Environment/Infrastructure,finding_Tier3Name,Conditions/weather/phenomena,dropdown,Equals|NotEquals,3
+Pipeline Fields > Finding Type > Environment/Infrastructure > Conditions/weather/phenomena,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type > Environment/Infrastructure,finding_Tier3Name,Task environment,dropdown,Equals|NotEquals,2
+Pipeline Fields > Finding Type > Environment/Infrastructure > Task environment,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,15
+Pipeline Fields > Finding Type,finding_Tier2Name,Organizational,dropdown,Equals|NotEquals,3
+Pipeline Fields > Finding Type > Organizational,finding_Tier3Name,Development,dropdown,Equals|NotEquals,3
+Pipeline Fields > Finding Type > Organizational > Development,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,13
+Pipeline Fields > Finding Type > Organizational,finding_Tier3Name,Management,dropdown,Equals|NotEquals,5
+Pipeline Fields > Finding Type > Organizational > Management,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,13
+Pipeline Fields > Finding Type > Organizational,finding_Tier3Name,Support/oversight/monitoring,dropdown,Equals|NotEquals,5
+Pipeline Fields > Finding Type > Organizational > Support/oversight/monitoring,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,13
+Pipeline Fields > Finding Type > Not determined,finding_ModifierName,Modifier,dropdown,Equals|NotEquals,2
+Hazmat Fields,chemicalReleased,Chemical Released,text,Contains|DoesNotContain|Equals|NotEquals|StartsWith|EndsWith,0
+Hazmat Fields,StateOfMaterial,State of Material,dropdown,Equals|NotEquals,4
+Hazmat Fields,HazardClass,Hazard Class,dropdown,Equals|NotEquals,9

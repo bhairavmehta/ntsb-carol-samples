@@ -1,0 +1,2 @@
+NTSBNumber,Mkey,VehicleNumber,DamageLevel,FireType,ExplosionType,SerialNumber,AircraftCategory,AmateurBuilt,Make,Model,NumberOfEngines,RegistrationNumber,AirMedical,FlightScheduledType,FlightServiceType,FlightTerminalType,OperatorName,RegisteredOwner,RegulationFlightConductedUnder,RevenueSightseeing,SecondPilotPresent,AircraftUnmanned
+DCA24MA063,193617,1,Substantial,None,None,67501,Airplane,False,BOEING,737-9,2,N704AL,False,Scheduled,Passenger,Domestic,ALASKA AIRLINES INC,ALASKA AIRLINES INC,121,False,True,False
